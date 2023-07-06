@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_back"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/buttomtext"
+                android:insetLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:insetRight="32dp"
+                android:textAppearance="@style/buttomtext"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/buttomtext"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:insetLeft="32dp"
+                android:insetRight="32dp"
+                android:textAppearance="@style/buttomtext"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:insetLeft="32dp"
+                android:insetRight="32dp"
+                android:textAppearance="@style/buttomtext"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                style="@style/buttomtext"
+                android:text="" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btCancell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:insetLeft="32dp"
+                android:layout_marginBottom="16dp"
+                style="@style/buttomtext"
+                android:layout_marginTop="64dp"
+                android:insetRight="32dp"
+                android:textAppearance="@style/buttomtext"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

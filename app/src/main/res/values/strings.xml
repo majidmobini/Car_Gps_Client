@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">ردیاب کارنیک</string>
+    <string name="sim_no">شماره سیمکارت</string>
+    <string name="pass">رمز دستگاه</string>
+    <string name="user">نام کاربری دستگاه</string>
+
+    <string name="dev_Settings">تنظیمات دستگاه</string>
+
+    <string name="sitePass">رمز سامانه</string>
+    <string name="siteUser">نام کاربری سامانه</string>
+
+    <string name="enter_siteUser">لطفا در بخش تنظیمات نام کاربری و رمز سامانه را وارد کنید.</string>
+    <string name="error_in_get_data">خطا در گرفتن اطلاعات</string>
+    <string name="no_data">اطلاعاتی یافت نشد.</string>
+    <string name="deviceSetting">اطلاعات دستگاه</string>
+    <string name="save_settings">ذخیره اطلاعات</string>
+    <string name="default_notification_channel_id">Tracker_Radyab_id</string>
+    <string name="fill_the_field">این فیلد نباید خالی باشد.</string>
+    <string name="getDevInfo">اطلاعات دستگاه</string>
+    <string name="getStatus">وضعیت دستگاه</string>
+    <string name="getGps">موقعیت دستگاه</string>
+    <string name="getIO">خروجی های دستگاه</string>
+    <string name="cpuReset">راه اندازی مجدد</string>
+    <string name="simSet">تنظیم سیمکارت</string>
+    <string name="irancel">ایرانسل</string>
+    <string name="hamrahaval">همراه اول</string>
+    <string name="rightel">رایتل</string>
+
+    <string name="setParam">تنطیم دستگاه</string>
+    <string name="getPath">مشاهده مسیر</string>
+    <string name="setDigit">تنطیم خروجی</string>
+    <string name="getBattery">باطری دستگاه</string>
+    <string name="onlineStatus">مشاهده آنلاین</string>
+    <string name="dev_settings">تنطیمات دستگاه</string>
+    <string name="call_device">تماس با دستگاه</string>
+    <string name="file_browser">انتخاب فایل</string>
+    <string name="autorized_number">شماره معتبر</string>
+    <string name="ledIndicator">لامپ نشانگر</string>
+    <string name="geofence">تعیین محدوده</string>
+    <string name="geoRadius">شعاع محدوده</string>
+    <string name="micPower">قدرت میکروفن از 1 تا 15</string>
+    <string name="mic_error">قدرت باید بین 0 تا 15 باشد.</string>
+    <string name="geoTime">زمان محدوده</string>
+    <string name="geoNumber">شماره تماس محدوده</string>
+    <string name="turnOff">خاموش کننده</string>
+    <string name="onlySms">فقط ارسال SMS</string>
+    <string name="onlyCall">فقط تماس</string>
+    <string name="smsAndCall">ارسال SMS و تماس</string>
+    <string name="doorNegative">درب حساس به منفی</string>
+    <string name="doorPositive">درب حساس به مثبت</string>
+    <string name="doorSwitchOff">ورودی درب و سوییچ غیرفعال</string>
+    <string name="geofenceAlarm">هشدار خروج از محدوده</string>
+    <string name="doorInput">سطح ورودی درب</string>
+    <string name="micGain">قدرت میکروفن</string>
+    <string name="onlineTime">زمان ارسال آنلاین بودن.(به دقیقه)</string>
+    <string name="cancel">لغو</string>
+    <string name="send">ارسال</string>
+    <string name="on">روشن</string>
+    <string name="off">خاموش</string>
+    <string name="disable_park">غیرفعالسازی پارک فنس</string>
+    <string name="active_park">فعالسازی پارک فنس</string>
+    <string name="id">ای دی:</string>
+    <string name="name">نام:</string>
+    <string name="status">وضعیت:</string>
+    <string name="lastUpdate">آخرین ارسال:</string>
+    <string name="phone">تلفن:</string>
+    <string name="startDate">زمان شروع:</string>
+    <string name="endDate">زمان پایان:</string>
+    <string name="setParams">تنطیم پارامترهای ردیاب</string>
+    <string name="getParam">دریافت پارامترهای ردیاب</string>
+    <string name="warningMemory"> با توجه به کم بودن میزان رم گوشی شما تنها 500 نقطه آخر مسیر نمایش داده شده است. جهت مشاهده مسیر کامل لطفا از وب سایت "http://gps.jupin.ir" استفاده نمایید.</string>
+    <string name="sending_sms">در حال ارسال پیامک</string>
+    <string name="today_path">مسیر امروز</string>
+    <string name="yesterday_path">مسیر دیروز</string>
+    <string name="custom_path">انتخاب تاریخ</string>
+
+</resources>

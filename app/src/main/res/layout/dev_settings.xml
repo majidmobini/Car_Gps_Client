@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/header">
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/titleText"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:text="@string/dev_settings"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="32dp"
+        android:orientation="vertical"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btdev_info"
+            style="@style/buttomtext"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:text="@string/getDevInfo" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btSetParam"
+            style="@style/buttomtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/setParams" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btGetparam"
+            style="@style/buttomtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/getParam" />
+
+        <com.google.android.material.button.MaterialButton
+        android:id="@+id/btReset"
+        style="@style/buttomtext"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cpuReset" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btSimSet"
+            style="@style/buttomtext"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simSet" />
+    </LinearLayout>
+
+</LinearLayout>

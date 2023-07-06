@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="@drawable/rowback"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btToday"
+            style="@style/buttomtext"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+
+
+            android:text="@string/today_path" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btYesterday"
+            style="@style/buttomtext"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+           android:layout_margin="16dp"
+
+            android:text="@string/yesterday_path" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btCustom"
+            style="@style/buttomtext"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+
+            android:text="@string/custom_path" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btCancel"
+            style="@style/buttomtext"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+</LinearLayout>
